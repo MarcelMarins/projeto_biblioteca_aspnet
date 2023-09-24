@@ -14,14 +14,11 @@ using MySql.Data.MySqlClient;
 using System.Data;
 //Permite visualizar o web.config
 using System.Configuration;
-using System.Data.SqlClient;
+using Usuario;
 
 
-namespace FATEC
-{
-    /// <summary>
-    /// Summary description for Mapped
-    /// </summary>
+namespace Conect
+{ 
     public class Mapped
     {
         //Abrir conexao

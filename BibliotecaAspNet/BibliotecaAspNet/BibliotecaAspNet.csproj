@@ -149,6 +149,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Code\Mapped.cs" />
+    <Content Include="App_Code\Classes\User.cs" />
+    <Content Include="App_Code\Persistencia\UserBD.cs" />
     <Compile Include="Pages\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -158,10 +160,7 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Code\Classes\" />
-    <Folder Include="App_Code\Persistencia\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="dist\css\bootstrap-grid.css.map" />
     <Content Include="dist\css\bootstrap-grid.min.css.map" />
