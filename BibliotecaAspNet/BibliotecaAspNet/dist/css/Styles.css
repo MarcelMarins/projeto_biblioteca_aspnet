@@ -1,0 +1,24 @@
+﻿
+.imagem {
+    background-image: url('../img/foto-interna-de-uma-mulher-alegre-cobrindo-o-rosto-com-um-livro-vermelho-com-expressao-alegre.jpg');
+    background-size: cover;
+    background-position: right;
+    height: 100vh;
+    filter: brightness(0.8); /* Reduz o brilho para escurecer a imagem */
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
