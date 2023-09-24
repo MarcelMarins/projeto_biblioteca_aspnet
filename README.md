@@ -1,6 +1,5 @@
-# projeto-biblioteca-aspnet
-Projeto desenvolvido em AspNet para praticar habilidades de design e lógica.
-
+# eReadfy
+ A universe of eBooks that cross borders, offering insights into business, technology, health and much more. A versatile reading experience for curious minds 
 🖥 Imagens do projeto:
 <br>
 
