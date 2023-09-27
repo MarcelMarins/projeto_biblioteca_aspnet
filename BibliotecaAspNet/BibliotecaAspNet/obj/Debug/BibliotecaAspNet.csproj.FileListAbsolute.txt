@@ -74,6 +74,7 @@ C:\Users\marce\Desktop\RepoGIT\BibliotecaAspNet\BibliotecaAspNet\obj\Debug\Bibli
 C:\Users\marce\Desktop\RepoGIT\BibliotecaAspNet\BibliotecaAspNet\obj\Debug\BibliotecaAspNet.csproj.CopyComplete
 C:\Users\marce\Desktop\RepoGIT\BibliotecaAspNet\BibliotecaAspNet\obj\Debug\BibliotecaAspNet.dll
 C:\Users\marce\Desktop\RepoGIT\BibliotecaAspNet\BibliotecaAspNet\obj\Debug\BibliotecaAspNet.pdb
+<<<<<<< Updated upstream
 C:\Users\jessi\Área de Trabalho\projeto_biblioteca_aspnet\BibliotecaAspNet\BibliotecaAspNet\bin\BibliotecaAspNet.dll.config
 C:\Users\jessi\Área de Trabalho\projeto_biblioteca_aspnet\BibliotecaAspNet\BibliotecaAspNet\bin\BibliotecaAspNet.dll
 C:\Users\jessi\Área de Trabalho\projeto_biblioteca_aspnet\BibliotecaAspNet\BibliotecaAspNet\bin\BibliotecaAspNet.pdb
@@ -154,6 +155,8 @@ C:\Users\jessi\Área de Trabalho\projeto_biblioteca_aspnet\BibliotecaAspNet\Bibl
 C:\Users\jessi\Área de Trabalho\projeto_biblioteca_aspnet\BibliotecaAspNet\BibliotecaAspNet\bin\StarkbankEcdsa.dll
 C:\Users\jessi\Área de Trabalho\projeto_biblioteca_aspnet\BibliotecaAspNet\BibliotecaAspNet\bin\SendGrid.pdb
 C:\Users\jessi\Área de Trabalho\projeto_biblioteca_aspnet\BibliotecaAspNet\BibliotecaAspNet\bin\SendGrid.xml
+=======
+>>>>>>> Stashed changes
 C:\Users\marce\Desktop\RepoGIT\projeto-biblioteca-aspnet\BibliotecaAspNet\BibliotecaAspNet\bin\BibliotecaAspNet.dll.config
 C:\Users\marce\Desktop\RepoGIT\projeto-biblioteca-aspnet\BibliotecaAspNet\BibliotecaAspNet\bin\BibliotecaAspNet.dll
 C:\Users\marce\Desktop\RepoGIT\projeto-biblioteca-aspnet\BibliotecaAspNet\BibliotecaAspNet\bin\BibliotecaAspNet.pdb

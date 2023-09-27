@@ -31,15 +31,7 @@ public partial class Livros : System.Web.UI.Page
 
     void LimpaCampos()
     {
-        livTitulo.Text = "";
-        livSinopse.Text = "";
-        livPreco.Text = "";
-        livIdioma.Text = "";
-        livGenero.Text = "";
-        livEditora.Text = "";
-        livAno.Text = "";
-        livAutor.Text = "";
-        livObservacao.Text = "";
+        
     }
 
     void CarregaGeneros()
