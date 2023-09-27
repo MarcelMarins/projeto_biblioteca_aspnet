@@ -28,18 +28,3 @@ a {
     background-color: #690000;
 }
 
-.navbtn {
-    color: #690000;
-    font-size: 19px;
-    margin: 10px;
-    box-shadow: 0px 4px 10px -2px black;
-}
-
-    .navbtn:hover {
-        transition: transform 0.2s ease-in-out;
-        transform: translateY(-3px);
-    }
-
-    .navbtn:not(hover) {
-        transition: transform 0.2s ease-in-out;
-    }

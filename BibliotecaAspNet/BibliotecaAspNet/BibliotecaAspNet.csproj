@@ -144,20 +144,33 @@
     <Content Include="dist\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="dist\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="dist\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Pages\Generos.aspx" />
     <Content Include="Pages\Livros.aspx" />
     <Content Include="Pages\Login.aspx" />
+    <Content Include="Pages\Usuarios.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Code\Mapped.cs" />
     <Content Include="App_Code\Classes\User.cs" />
     <Content Include="App_Code\Persistencia\UserBD.cs" />
+    <Content Include="App_Code\Classes\Genre.cs" />
+    <Content Include="App_Code\Classes\Book.cs" />
+    <Content Include="App_Code\Persistencia\BookBD.cs" />
+    <Content Include="App_Code\Persistencia\GenreBD.cs" />
     <Compile Include="Navbar.Master.cs">
       <DependentUpon>Navbar.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Navbar.Master.designer.cs">
       <DependentUpon>Navbar.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Generos.aspx.cs">
+      <DependentUpon>Generos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Generos.aspx.designer.cs">
+      <DependentUpon>Generos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Livros.aspx.cs">
       <DependentUpon>Livros.aspx</DependentUpon>
@@ -172,6 +185,13 @@
     </Compile>
     <Compile Include="Pages\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Usuarios.aspx.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Usuarios.aspx.designer.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

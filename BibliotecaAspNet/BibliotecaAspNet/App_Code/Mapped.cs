@@ -17,48 +17,42 @@ using System.Configuration;
 using Usuario;
 
 
-namespace Conect
-{ 
-    public class Mapped
+/// <summary>
+/// Método responsável para abrir a conexão com o
+/// Banco de dados, chamando a String de conexão do
+/// Web.config
+/// </summary>
+public static class Mapped
+{
+    //Abrir conexao
+    public static IDbConnection Connection()
     {
-        //Abrir conexao
-        public static IDbConnection Connection()
-        {
-            MySqlConnection conn = new MySqlConnection(ConfigurationManager.AppSettings["strConexao"]);
-            conn.Open();
-            return conn;
-        }
-
-        //Executa comando no BD
-        public static IDbCommand Command(string query, IDbConnection conexao)
-        {
-            IDbCommand comando = conexao.CreateCommand();
-            comando.CommandText = query;
-            return comando;
-        }
-
-        //Retorna um Adapter (SELECT)
-        public static IDataAdapter Adapter(IDbCommand comando)
-        {
-            IDbDataAdapter adap = new MySqlDataAdapter();
-            adap.SelectCommand = comando;
-            return adap;
-        }
-
-        //Cria parametro da SQL
-        public static IDbDataParameter Parameter(string nome, object valor)
-        {
-            return new MySqlParameter(nome, valor);
-
-        }
-
-
-
-        public Mapped()
-        {
-            //
-            // TODO: Add constructor logic here
-            //
-        }
+        MySqlConnection conn = new MySqlConnection(ConfigurationManager.AppSettings["strConexao"]);
+        conn.Open();
+        return conn;
     }
+
+    //Executa comando no BD
+    public static IDbCommand Command(string query, IDbConnection conexao)
+    {
+        IDbCommand comando = conexao.CreateCommand();
+        comando.CommandText = query;
+        return comando;
+    }
+
+    //Retorna um Adapter (SELECT)
+    public static IDataAdapter Adapter(IDbCommand comando)
+    {
+        IDbDataAdapter adap = new MySqlDataAdapter();
+        adap.SelectCommand = comando;
+        return adap;
+    }
+
+    //Cria parametro da SQL
+    public static IDbDataParameter Parameter(string nome, object valor)
+    {
+        return new MySqlParameter(nome, valor);
+
+    }
+
 }
