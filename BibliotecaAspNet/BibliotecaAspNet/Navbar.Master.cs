@@ -7,16 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace BibliotecaAspNet
 {
-    public partial class Login : System.Web.UI.Page
+    public partial class Navbar : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
-        }
-
-        protected void btnEntrar_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("Livros.aspx");
         }
     }
 }

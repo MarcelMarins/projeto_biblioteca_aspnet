@@ -30,12 +30,12 @@
 
                         <div class="col-md-12">
                             <spam class="text-black">E-Mail</spam>
-                            <asp:TextBox runat="server" ID="txtLogin" CssClass="form-control border-0 border-bottom"></asp:TextBox>
+                            <asp:TextBox runat="server" ID="txtLogin" CssClass="form-control border-0 border-bottom rounded-0"></asp:TextBox>
                         </div>
 
                         <div class="col-md-12 mt-2 mb-2">
                             <spam class="text-black">Senha</spam>
-                            <asp:TextBox runat="server" ID="txtSenha" CssClass="form-control border-0 border-bottom"></asp:TextBox>
+                            <asp:TextBox runat="server" ID="txtSenha" CssClass="form-control border-0 border-bottom rounded-0"></asp:TextBox>
                         </div>
 
                         <p>Esqueceu a senha? <a href="#">Clique aqui</a></p>

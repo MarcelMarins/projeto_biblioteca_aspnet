@@ -144,6 +144,7 @@
     <Content Include="dist\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="dist\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="dist\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Pages\Livros.aspx" />
     <Content Include="Pages\Login.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -151,6 +152,20 @@
     <Content Include="App_Code\Mapped.cs" />
     <Content Include="App_Code\Classes\User.cs" />
     <Content Include="App_Code\Persistencia\UserBD.cs" />
+    <Compile Include="Navbar.Master.cs">
+      <DependentUpon>Navbar.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Navbar.Master.designer.cs">
+      <DependentUpon>Navbar.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Livros.aspx.cs">
+      <DependentUpon>Livros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Livros.aspx.designer.cs">
+      <DependentUpon>Livros.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -184,6 +199,7 @@
     <Content Include="dist\js\bootstrap.esm.min.js.map" />
     <Content Include="dist\js\bootstrap.js.map" />
     <Content Include="dist\js\bootstrap.min.js.map" />
+    <Content Include="Navbar.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
