@@ -237,3 +237,4 @@ C:\Users\marce\Desktop\RepoGIT\projeto-biblioteca-aspnet\BibliotecaAspNet\Biblio
 C:\Users\marce\Desktop\RepoGIT\projeto-biblioteca-aspnet\BibliotecaAspNet\BibliotecaAspNet\obj\Debug\BibliotecaAspNet.csproj.CopyComplete
 C:\Users\marce\Desktop\RepoGIT\projeto-biblioteca-aspnet\BibliotecaAspNet\BibliotecaAspNet\obj\Debug\BibliotecaAspNet.dll
 C:\Users\marce\Desktop\RepoGIT\projeto-biblioteca-aspnet\BibliotecaAspNet\BibliotecaAspNet\obj\Debug\BibliotecaAspNet.pdb
+C:\Users\marce\Desktop\RepoGIT\projeto-biblioteca-aspnet\BibliotecaAspNet\BibliotecaAspNet\obj\Debug\BibliotecaAspNet.csprojAssemblyReference.cache

@@ -1,0 +1,145 @@
+[1mdiff --git a/BibliotecaAspNet/.vs/BibliotecaAspNet/FileContentIndex/36217465-3243-47e5-a29a-b5c2cb8b7f4b.vsidx b/BibliotecaAspNet/.vs/BibliotecaAspNet/FileContentIndex/36217465-3243-47e5-a29a-b5c2cb8b7f4b.vsidx[m
+[1mdeleted file mode 100644[m
+[1mindex 35fc492..0000000[m
+Binary files a/BibliotecaAspNet/.vs/BibliotecaAspNet/FileContentIndex/36217465-3243-47e5-a29a-b5c2cb8b7f4b.vsidx and /dev/null differ
+[1mdiff --git a/BibliotecaAspNet/.vs/BibliotecaAspNet/FileContentIndex/39d7eeec-f6bc-4668-bc1e-f43472196023.vsidx b/BibliotecaAspNet/.vs/BibliotecaAspNet/FileContentIndex/39d7eeec-f6bc-4668-bc1e-f43472196023.vsidx[m
+[1mdeleted file mode 100644[m
+[1mindex c42dda0..0000000[m
+Binary files a/BibliotecaAspNet/.vs/BibliotecaAspNet/FileContentIndex/39d7eeec-f6bc-4668-bc1e-f43472196023.vsidx and /dev/null differ
+[1mdiff --git a/BibliotecaAspNet/.vs/BibliotecaAspNet/FileContentIndex/87357494-6665-4bc4-b8f1-529a13e069c1.vsidx b/BibliotecaAspNet/.vs/BibliotecaAspNet/FileContentIndex/87357494-6665-4bc4-b8f1-529a13e069c1.vsidx[m
+[1mdeleted file mode 100644[m
+[1mindex 7778287..0000000[m
+Binary files a/BibliotecaAspNet/.vs/BibliotecaAspNet/FileContentIndex/87357494-6665-4bc4-b8f1-529a13e069c1.vsidx and /dev/null differ
+[1mdiff --git a/BibliotecaAspNet/.vs/BibliotecaAspNet/FileContentIndex/98b668db-d6b9-4f93-8bd6-39eeaafa29a6.vsidx b/BibliotecaAspNet/.vs/BibliotecaAspNet/FileContentIndex/98b668db-d6b9-4f93-8bd6-39eeaafa29a6.vsidx[m
+[1mdeleted file mode 100644[m
+[1mindex 6cea52f..0000000[m
+Binary files a/BibliotecaAspNet/.vs/BibliotecaAspNet/FileContentIndex/98b668db-d6b9-4f93-8bd6-39eeaafa29a6.vsidx and /dev/null differ
+[1mdiff --git a/BibliotecaAspNet/.vs/BibliotecaAspNet/FileContentIndex/abb4aa6e-f39f-4913-bc16-5883e60af46d.vsidx b/BibliotecaAspNet/.vs/BibliotecaAspNet/FileContentIndex/abb4aa6e-f39f-4913-bc16-5883e60af46d.vsidx[m
+[1mdeleted file mode 100644[m
+[1mindex 6bfdeb5..0000000[m
+Binary files a/BibliotecaAspNet/.vs/BibliotecaAspNet/FileContentIndex/abb4aa6e-f39f-4913-bc16-5883e60af46d.vsidx and /dev/null differ
+[1mdiff --git a/BibliotecaAspNet/.vs/BibliotecaAspNet/FileContentIndex/d938445f-eb2a-4209-a04f-5f0c07772290.vsidx b/BibliotecaAspNet/.vs/BibliotecaAspNet/FileContentIndex/d938445f-eb2a-4209-a04f-5f0c07772290.vsidx[m
+[1mdeleted file mode 100644[m
+[1mindex 801d9bf..0000000[m
+Binary files a/BibliotecaAspNet/.vs/BibliotecaAspNet/FileContentIndex/d938445f-eb2a-4209-a04f-5f0c07772290.vsidx and /dev/null differ
+[1mdiff --git a/BibliotecaAspNet/.vs/BibliotecaAspNet/FileContentIndex/read.lock b/BibliotecaAspNet/.vs/BibliotecaAspNet/FileContentIndex/read.lock[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/BibliotecaAspNet/.vs/BibliotecaAspNet/v17/.suo b/BibliotecaAspNet/.vs/BibliotecaAspNet/v17/.suo[m
+[1mindex 8be3b51..634470c 100644[m
+Binary files a/BibliotecaAspNet/.vs/BibliotecaAspNet/v17/.suo and b/BibliotecaAspNet/.vs/BibliotecaAspNet/v17/.suo differ
+[1mdiff --git a/BibliotecaAspNet/BibliotecaAspNet/App_Code/Persistencia/BookBD.cs b/BibliotecaAspNet/BibliotecaAspNet/App_Code/Persistencia/BookBD.cs[m
+[1mindex fe12537..5bc38d9 100644[m
+[1m--- a/BibliotecaAspNet/BibliotecaAspNet/App_Code/Persistencia/BookBD.cs[m
+[1m+++ b/BibliotecaAspNet/BibliotecaAspNet/App_Code/Persistencia/BookBD.cs[m
+[36m@@ -2,7 +2,7 @@[m
+ using System.Collections.Generic;[m
+ using System.Linq;[m
+ using System.Web;[m
+[31m-[m
+[32m+[m[32musing BibliotecaAspNet.App_Code.Classes;[m
+ [m
+ namespace BibliotecaAspNet.App_Code.Classes[m
+ {[m
+[1mdiff --git a/BibliotecaAspNet/BibliotecaAspNet/App_Code/Persistencia/GenreBD.cs b/BibliotecaAspNet/BibliotecaAspNet/App_Code/Persistencia/GenreBD.cs[m
+[1mindex 7fcae5c..09d020c 100644[m
+[1m--- a/BibliotecaAspNet/BibliotecaAspNet/App_Code/Persistencia/GenreBD.cs[m
+[1m+++ b/BibliotecaAspNet/BibliotecaAspNet/App_Code/Persistencia/GenreBD.cs[m
+[36m@@ -4,6 +4,7 @@[m [musing System.Data;[m
+ using System.Linq;[m
+ using System.Web;[m
+ [m
+[32m+[m[32mnamespace BibliotecaAspNet.App_Code.Classes.Persistencia;[m
+ public class GenreBD[m
+ {[m
+ [m
+[1mdiff --git a/BibliotecaAspNet/BibliotecaAspNet/Pages/Generos.aspx.cs b/BibliotecaAspNet/BibliotecaAspNet/Pages/Generos.aspx.cs[m
+[1mindex 8bc9f02..3332dba 100644[m
+[1m--- a/BibliotecaAspNet/BibliotecaAspNet/Pages/Generos.aspx.cs[m
+[1m+++ b/BibliotecaAspNet/BibliotecaAspNet/Pages/Generos.aspx.cs[m
+[36m@@ -11,7 +11,7 @@[m [mnamespace BibliotecaAspNet.Pages[m
+     {[m
+         protected void Page_Load(object sender, EventArgs e)[m
+         {[m
+[31m-[m
+[32m+[m[41m            [m
+         }[m
+ [m
+         protected void btnCatLimpar_Click(object sender, EventArgs e)[m
+[1mdiff --git a/BibliotecaAspNet/BibliotecaAspNet/Pages/Livros.aspx.cs b/BibliotecaAspNet/BibliotecaAspNet/Pages/Livros.aspx.cs[m
+[1mindex 8de85d6..0ad76b5 100644[m
+[1m--- a/BibliotecaAspNet/BibliotecaAspNet/Pages/Livros.aspx.cs[m
+[1m+++ b/BibliotecaAspNet/BibliotecaAspNet/Pages/Livros.aspx.cs[m
+[36m@@ -21,14 +21,14 @@[m [mpublic partial class Livros : System.Web.UI.Page[m
+ [m
+     protected void btnLivLimpar_Click(object sender, EventArgs e)[m
+     {[m
+[31m-        LimpaCampos();[m
+[32m+[m
+     }[m
+ [m
+     protected void btnLivGravar_Click(object sender, EventArgs e)[m
+     {[m
+ [m
+     }[m
+[31m-[m
+[32m+[m[41m        [m
+     void LimpaCampos()[m
+     {[m
+         [m
+[1mdiff --git a/BibliotecaAspNet/BibliotecaAspNet/bin/BibliotecaAspNet.dll b/BibliotecaAspNet/BibliotecaAspNet/bin/BibliotecaAspNet.dll[m
+[1mindex 0417621..dd0f7c0 100644[m
+Binary files a/BibliotecaAspNet/BibliotecaAspNet/bin/BibliotecaAspNet.dll and b/BibliotecaAspNet/BibliotecaAspNet/bin/BibliotecaAspNet.dll differ
+[1mdiff --git a/BibliotecaAspNet/BibliotecaAspNet/bin/BibliotecaAspNet.dll.config b/BibliotecaAspNet/BibliotecaAspNet/bin/BibliotecaAspNet.dll.config[m
+[1mindex 6de4194..b8f839b 100644[m
+[1m--- a/BibliotecaAspNet/BibliotecaAspNet/bin/BibliotecaAspNet.dll.config[m
+[1m+++ b/BibliotecaAspNet/BibliotecaAspNet/bin/BibliotecaAspNet.dll.config[m
+[36m@@ -4,10 +4,7 @@[m
+   https://go.microsoft.com/fwlink/?LinkId=169433[m
+   -->[m
+ <configuration>[m
+[31m-  <appSettings>[m
+[31m-    <add key="strConexao" value="Database=bd_library;Data Source=localhost;User[m
+[31m-Id=root;Password=root; pooling=false"/>[m
+[31m-  </appSettings>[m
+[32m+[m
+   <system.web>[m
+     <compilation debug="true" targetFramework="4.7.2" />[m
+     <httpRuntime targetFramework="4.7.2" />[m
+[36m@@ -20,6 +17,12 @@[m [mId=root;Password=root; pooling=false"/>[m
+       </controls>[m
+     </pages>[m
+   </system.web>[m
+[32m+[m
+[32m+[m[32m  <!-- Conexão com o banco -->[m
+[32m+[m[32m  <appSettings>[m
+[32m+[m[32m    <add key="strConexao" value="Database=biblioteca;Data Source=localhost;UserId=root;Password=root; pooling=true"/>[m
+[32m+[m[32m  </appSettings>[m
+[32m+[m
+   <runtime>[m
+     <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">[m
+       <dependentAssembly>[m
+[1mdiff --git a/BibliotecaAspNet/BibliotecaAspNet/bin/BibliotecaAspNet.pdb b/BibliotecaAspNet/BibliotecaAspNet/bin/BibliotecaAspNet.pdb[m
+[1mindex b675a04..36c2732 100644[m
+Binary files a/BibliotecaAspNet/BibliotecaAspNet/bin/BibliotecaAspNet.pdb and b/BibliotecaAspNet/BibliotecaAspNet/bin/BibliotecaAspNet.pdb differ
+[1mdiff --git a/BibliotecaAspNet/BibliotecaAspNet/obj/Debug/BibliotecaAspNet.csproj.AssemblyReference.cache b/BibliotecaAspNet/BibliotecaAspNet/obj/Debug/BibliotecaAspNet.csproj.AssemblyReference.cache[m
+[1mindex 7d84893..2cbbbfb 100644[m
+Binary files a/BibliotecaAspNet/BibliotecaAspNet/obj/Debug/BibliotecaAspNet.csproj.AssemblyReference.cache and b/BibliotecaAspNet/BibliotecaAspNet/obj/Debug/BibliotecaAspNet.csproj.AssemblyReference.cache differ
+[1mdiff --git a/BibliotecaAspNet/BibliotecaAspNet/obj/Debug/BibliotecaAspNet.csproj.FileListAbsolute.txt b/BibliotecaAspNet/BibliotecaAspNet/obj/Debug/BibliotecaAspNet.csproj.FileListAbsolute.txt[m
+[1mindex 81c54bf..3b76683 100644[m
+[1m--- a/BibliotecaAspNet/BibliotecaAspNet/obj/Debug/BibliotecaAspNet.csproj.FileListAbsolute.txt[m
+[1m+++ b/BibliotecaAspNet/BibliotecaAspNet/obj/Debug/BibliotecaAspNet.csproj.FileListAbsolute.txt[m
+[36m@@ -237,3 +237,4 @@[m [mC:\Users\marce\Desktop\RepoGIT\projeto-biblioteca-aspnet\BibliotecaAspNet\Biblio[m
+ C:\Users\marce\Desktop\RepoGIT\projeto-biblioteca-aspnet\BibliotecaAspNet\BibliotecaAspNet\obj\Debug\BibliotecaAspNet.csproj.CopyComplete[m
+ C:\Users\marce\Desktop\RepoGIT\projeto-biblioteca-aspnet\BibliotecaAspNet\BibliotecaAspNet\obj\Debug\BibliotecaAspNet.dll[m
+ C:\Users\marce\Desktop\RepoGIT\projeto-biblioteca-aspnet\BibliotecaAspNet\BibliotecaAspNet\obj\Debug\BibliotecaAspNet.pdb[m
+[32m+[m[32mC:\Users\marce\Desktop\RepoGIT\projeto-biblioteca-aspnet\BibliotecaAspNet\BibliotecaAspNet\obj\Debug\BibliotecaAspNet.csprojAssemblyReference.cache[m
+[1mdiff --git a/BibliotecaAspNet/BibliotecaAspNet/obj/Debug/BibliotecaAspNet.dll b/BibliotecaAspNet/BibliotecaAspNet/obj/Debug/BibliotecaAspNet.dll[m
+[1mindex 0417621..dd0f7c0 100644[m
+Binary files a/BibliotecaAspNet/BibliotecaAspNet/obj/Debug/BibliotecaAspNet.dll and b/BibliotecaAspNet/BibliotecaAspNet/obj/Debug/BibliotecaAspNet.dll differ
+[1mdiff --git a/BibliotecaAspNet/BibliotecaAspNet/obj/Debug/BibliotecaAspNet.pdb b/BibliotecaAspNet/BibliotecaAspNet/obj/Debug/BibliotecaAspNet.pdb[m
+[1mindex b675a04..36c2732 100644[m
+Binary files a/BibliotecaAspNet/BibliotecaAspNet/obj/Debug/BibliotecaAspNet.pdb and b/BibliotecaAspNet/BibliotecaAspNet/obj/Debug/BibliotecaAspNet.pdb differ
+[1mdiff --git a/BibliotecaAspNet/BibliotecaAspNet/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache b/BibliotecaAspNet/BibliotecaAspNet/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache[m
+[1mindex 10d88ba..e040349 100644[m
+Binary files a/BibliotecaAspNet/BibliotecaAspNet/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache and b/BibliotecaAspNet/BibliotecaAspNet/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache differ

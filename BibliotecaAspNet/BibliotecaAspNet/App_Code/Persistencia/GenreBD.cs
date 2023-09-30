@@ -4,6 +4,7 @@ using System.Data;
 using System.Linq;
 using System.Web;
 
+namespace BibliotecaAspNet.App_Code.Classes.Persistencia;
 public class GenreBD
 {
 

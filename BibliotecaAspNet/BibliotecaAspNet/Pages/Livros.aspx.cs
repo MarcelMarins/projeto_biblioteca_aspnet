@@ -21,14 +21,14 @@ public partial class Livros : System.Web.UI.Page
 
     protected void btnLivLimpar_Click(object sender, EventArgs e)
     {
-        LimpaCampos();
+
     }
 
     protected void btnLivGravar_Click(object sender, EventArgs e)
     {
 
     }
-
+        
     void LimpaCampos()
     {
         
