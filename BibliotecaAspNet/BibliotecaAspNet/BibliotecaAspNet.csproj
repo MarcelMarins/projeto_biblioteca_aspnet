@@ -152,12 +152,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Code\Mapped.cs" />
-    <Content Include="App_Code\Classes\User.cs" />
-    <Content Include="App_Code\Persistencia\UserBD.cs" />
-    <Content Include="App_Code\Classes\Genre.cs" />
-    <Content Include="App_Code\Classes\Book.cs" />
-    <Content Include="App_Code\Persistencia\BookBD.cs" />
-    <Content Include="App_Code\Persistencia\GenreBD.cs" />
     <Compile Include="Navbar.Master.cs">
       <DependentUpon>Navbar.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -195,7 +189,10 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="App_Code\Classes\" />
+    <Folder Include="App_Code\Persistencia\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="dist\css\bootstrap-grid.css.map" />
     <Content Include="dist\css\bootstrap-grid.min.css.map" />

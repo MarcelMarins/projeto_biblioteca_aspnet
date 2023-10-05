@@ -14,7 +14,6 @@ using MySql.Data.MySqlClient;
 using System.Data;
 //Permite visualizar o web.config
 using System.Configuration;
-using Usuario;
 
 
 /// <summary>
